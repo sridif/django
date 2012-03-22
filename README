@@ -1,0 +1,14 @@
+This is a sample django appilication which is hosted on heroku.
+Incase of doubt contact me. (user name : sridif)
+
+
+Contents : 
+
+1. Oauth login for linkedin
+2. a personality test modeled on a database
+
+
+An instance of this app is hosted on the cloud via heroku. (Thus the requirements.txt)
+
+The location of this instance is http://electric-dawn-4161.herokuapp.com/start/
+

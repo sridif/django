@@ -1,0 +1,15 @@
+<h1>{{ poll.question }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="/polls/{{ poll.id }}/vote/" method="post">
+{% csrf_token %}
+
+    <input type="radio" name="choice" id="agree" value="1" />
+    <label>{{ choice }}</label><br />
+        <input type="radio" name="choice" id="disagree" value="-1" />
+    <label>{{ choice }}</label><br />
+    
+
+<input type="submit" value="Vote" />
+</form>
